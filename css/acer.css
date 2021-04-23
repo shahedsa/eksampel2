@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+background-color: #fff;
+
+
+}
+.big-home1{
+    background-image: url(../Images/fine.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.all-home{
+    width: 100%;
+    background-color: #161616;
+    
+    text-align: center;
+}
+.all-home ul{
+    list-style-type: none;
+    display: inline-flex;
+
+}
+.all-home ul li{
+    margin: 15px;
+    padding: 15px;
+    width: 140px;
+}
+.all-home ul li a{
+    text-decoration: none;
+    color: #b2b1b1;
+
+}
+.fab,.fas{
+    color: #fff;
+    margin-right: 4px;
+}
+.active,.all-home ul li:hover{
+    background-color: #1919;
+}
+.ninu{
+display: none;
+}
+.all-home ul li:hover .ninu{
+    display: block;
+    position: absolute;
+    background-color: #191919;
+    margin-top: 15px;
+    margin-left: -20px;
+}
+.all-home ul li:hover .ninu ul{
+    display: block;
+    margin: 10px;
+}
+.all-home ul li:hover .ninu ul li{
+    border-bottom: 1px dotted #b2b1b1;
+    text-align: left;
+    background: transparent;
+    margin: 20px;
+}
+.all-home ul li:hover .ninu ul li:last-child{
+    border-bottom: none;
+}
+.fa{
+    float: right;
+    color: #fff;
+}
+.ninu1{
+    display: none;
+}
+.ss:hover .ninu1{
+    display: block;
+    position: absolute;
+    background-color: #191919;
+    margin-top: -50px;
+    margin-left: 110px;
+}
+
+/* start footer*/
+.footer {
+    width: 100%;
+    margin-top: 120px;
+    position: relative;
+    background-color: #323232;
+    color: #6c6c6c;
+    padding: 40px 200px ;
+    overflow: hidden;
+    
+    
+}
+.footer .columns{
+    width: 23%;
+    float: left;
+    margin-right: 10px;
+    
+}
+.footer .G {
+    position: absolute;
+    top: 215px;
+    color: #ccc;
+}
+.footer h2{
+    color: #ccc;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.footer p{
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.footer .icone i{
+    color: #ccc;
+    padding: 10px;
+    border: 1px solid #6c6c6c;
+    margin-bottom: 10px;
+}
+.footer .tag span{
+    display: inline-block;
+    color: #ccc;
+    padding: 10px;
+    border: 1px solid #6c6c6c;
+    margin-bottom: 10px;
+}
+
+.footer .phone div img{
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.footer .phone div{
+    overflow: hidden;
+    margin-top: 5px;
+}
+.footer .phone div h4{
+    color: #ccc;
+    font-weight: normal;
+    font-size: 14px;
+}
+.footer .phone div span{
+    font-size: 12px;
+}
+.footer .com ul li{
+    font-size: 15px;
+    border-bottom: 1px solid #6c6c6c ;
+    padding: 5px;
+    list-style-type: none;
+    color: #ccc;
+}
+
+/* end footer*/
+
+/* start company */
+
+.company{
+background-color: #eee;
+padding: 100px 20px;
+color: #42445a;
+overflow: hidden;
+width: 100%;
+}
+
+.company .manager{
+    width: 50%;
+    display: inline-flex;
+}
+.company .manager img{
+    border-radius: 10%;
+    position: relative;
+    top: -50px;
+
+
+}
+.company .manager h2{
+    color: #232332;
+    font-size: 29px;
+    height: 40px;
+    
+    margin-right: 10px;
+    position: relative;
+    left: 50px;
+    border-bottom:1px solid;
+    font-family: monospace;
+
+}
+.company .manager p{
+    color: #6c6c6c;
+    position: relative;
+    top: 50px;
+    left: -120px;
+    font-family: monospace;
+}
+.company .mark{
+    display: inline-flex;
+    position: absolute;
+
+    
+}
+.company .mark img{
+    border-radius:10%;
+    position: relative;
+    margin-top: -40px;
+    height: 230px;
+    
+}
+.company .mark h2{ color: #232332;
+    font-size: 29px;
+    height: 40px;
+    
+    margin-right: 10px;
+    position: relative;
+    left: 50px;
+    border-bottom:1px solid;
+    font-family: monospace;
+}
+.company .mark p{
+    color: #6c6c6c;
+    position: relative;
+    top: 50px;
+    left: -200px;
+    font-family: monospace;
+}  
+.company .mark h2:hover{
+    border-bottom: none;
+}
+
+
+/* end company */
